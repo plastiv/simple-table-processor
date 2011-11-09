@@ -20,6 +20,7 @@ public:
 	friend istream &operator>>(istream &stream, Table &table);
 
 private:
+	// Constant values
 	static const int CELL_WIDTH = 9;
 	static const char SEPARATOR = '\t';
 	static const string BAD_VALUE;
